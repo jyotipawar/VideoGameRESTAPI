@@ -1,7 +1,7 @@
 # VideoGame metadata CRUD operations using REST API 
 ---------------------------------------------------------------
   
-#Requirements 
+## Requirements 
 
 Using Microsoft's .NET framework and C#, build an API project that will host your endpoints. 
 Endpoints must start with "/api/".swagger 
@@ -25,14 +25,13 @@ Feel free to load the data blob into memory and use in-memory storage for your o
 It's good practice to validate your request input models. 
 Basic auth username can be "admin" and password can be hardcoded. 
 
-==========================================================================================
 
-#Implementation 
+## Implementation 
 ---------------- 
 
 The implementation is organized in the following projects: 
 
-#1. Project Name: VideoGame.RESTAPI 
+## 1. Project Name: VideoGame.RESTAPI 
 
     Below are the details of folders and files of this project- 
 
@@ -51,7 +50,7 @@ The implementation is organized in the following projects:
 	The UserService is registered in the dependency injection (DI) container as a scoped service.  
 	This UserService validates usernames and passwords provided by user. 
 
-#2. Project Name: VideoGame.DAL 
+## 2. Project Name: VideoGame.DAL 
 
 	2.1 Entities  
 	Below are the details of folders and files of this project. 
@@ -66,7 +65,7 @@ The implementation is organized in the following projects:
 	2.4 Models 
 	GamesDto.cs is a class used for data transfer. 
 
-# How to Run code 
+## How to Run code 
 
 Below are required tools to run this solution  
 
@@ -109,11 +108,11 @@ Below are the paramter values are used while ordering the list
 	- year dsc
 	https://localhost:44301/api/VideoGames?cat_name=Maze&orderby=year dsc
 
-# Important Notes 
+## Important Notes 
 
 	Browser caches credentials. Sometimes clearing the cache doesn't help. The only reliable way how to fake it is use Chrome's incognito window (Ctrl+N). But one prompt per one incognito window. So, you need new incognito window when you want to enter them again. 
 So, in order to test properly user postman. 
 
-# References: 
+## References: 
 
 	https://codeburst.io/adding-basic-authentication-to-an-asp-net-core-web-api-project-5439c4cf78ee 
