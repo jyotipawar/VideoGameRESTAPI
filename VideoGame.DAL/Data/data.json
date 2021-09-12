@@ -1,0 +1,101 @@
+{
+	"games": [
+		{
+			"categories": ["Maze"],
+			"name": "Pac-Man",
+			"publisher": { "id": "1", "name": "Namco" },
+			"releaseYear": 1980
+		},
+		{
+			"categories": ["Fixed Shooter"],
+			"name": "Galaga",
+			"publisher": { "id": "1", "name": "Namco" },
+			"releaseYear": 1981,
+			"players": 2
+		},
+		{
+			"categories": ["Action"],
+			"name": "Frogger",
+			"publisher": { "id": "2", "name": "Konami" },
+			"releaseYear": 1981
+		},
+		{
+			"categories": ["Fighting"],
+			"name": "Street Fighter II",
+			"publisher": { "id": "3", "name": "Capcom" },
+			"releaseYear": 1991,
+			"players": 2
+		},
+		{
+			"categories": ["Scrolling Shooter"],
+			"name": "Space Invaders",
+			"publisher": { "id": "4", "name": "Atari" },
+			"releaseYear": 1978
+		},
+		{
+			"categories": ["Scrolling Shooter"],
+			"name": "1942",
+			"publisher": { "id": "3", "name": "Capcom" },
+			"releaseYear": 1984
+		},
+		{
+			"categories": ["Platform", "ActionAdventure", "Puzzle", "Racing"],
+			"name": "Donkey Kong",
+			"publisher": { "id": "5", "name": "Nintendo" },
+			"releaseYear": 1981
+		},
+		{
+			"categories": ["Fighting"],
+			"name": "Double Dragon",
+			"publisher": { "id": "6", "name": "SNK" },
+			"releaseYear": 1987
+		},
+		{
+			"categories": ["Action"],
+			"name": "Q*bert",
+			"publisher": { "id": "4", "name": "Atari" },
+			"releaseYear": 1982
+		},
+		{
+			"categories": ["Action"],
+			"name": "Joust",
+			"publisher": { "id": "4", "name": "Atari" },
+			"releaseYear": 1982,
+			"players": 2
+		},
+		{
+			"categories": ["Fighting"],
+			"name": "The Simpsons",
+			"publisher": { "id": "2", "name": "Konami" },
+			"releaseYear": 1991,
+			"players": 4
+		},
+		{
+			"categories": ["Fighting"],
+			"name": "Final Fight",
+			"publisher": { "id": "3", "name": "Capcom" },
+			"releaseYear": 1989,
+			"players": 2
+		},
+		{
+			"categories": ["Platform"],
+			"name": "Burger Time",
+			"publisher": { "id": "7", "name": "Midway" },
+			"releaseYear": 1982,
+			"players": 2
+		},
+		{
+			"categories": ["Fighting"],
+			"name": "Teenage Mutant Ninja Turtles",
+			"publisher": { "id": "2", "name": "Konami" },
+			"releaseYear": 1989
+		},
+		{
+			"categories": ["Sports", "Basketball"],
+			"name": "NBA Jam",
+			"publisher": { "id": "7", "name": "Midway" },
+			"releaseYear": 1993,
+			"players": 4
+		}
+	]
+}
