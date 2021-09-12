@@ -70,8 +70,8 @@ The implementation is organized in the following projects:
 
 Below are required tools to run this solution  
 
-- Visual Studio 2019 
-- Postman or alternatively use swagger in a browser. 
+	- Visual Studio 2019 
+	- Postman or alternatively use swagger in a browser. 
 
 Download the project and run in visual studio 2019. 
 
@@ -80,33 +80,33 @@ I have included VideoGame API Test Cases excel file covering some scenarios.
 Refer below demos on how to use Postman and Swagger to access endpoints 
 
 Postman Demo 
-![screen-gif](./postman.gif) 
+	![screen-gif](https://github.com/jyotipawar/VideoGameRESTAPI/blob/master/Postman.gif) 
 
 Swagger Demo 
-![screen-gif](./swagger.gif) 
+	![screen-gif](https://github.com/jyotipawar/VideoGameRESTAPI/blob/master/Swagger.gif) 
  
 Credential used for the basic authentication 
-Username = 'admin'  
-passwords = 'password' 
+	Username = 'admin'  
+	passwords = 'password' 
 
 Below are list of REST Api endpoints used in demo. 
-https://localhost:44301/api/VideoGames 
-https://localhost:44301/api/VideoGames?cat_name=Maze&orderby=name dsc 
-https://localhost:44301/api/VideoGames/DeleteGame?name=Pac-Man 
+	https://localhost:44301/api/VideoGames 
+	https://localhost:44301/api/VideoGames?cat_name=Maze&orderby=name dsc 
+	https://localhost:44301/api/VideoGames/DeleteGame?name=Pac-Man 
 
 Below are the paramter values are used while ordering the list
-- name
- https://localhost:44301/api/VideoGames?cat_name=Maze&orderby=name
-- name dsc
-https://localhost:44301/api/VideoGames?cat_name=Maze&orderby=name dsc
-- year 
-https://localhost:44301/api/VideoGames?cat_name=Maze&orderby=year
-- year dsc
-https://localhost:44301/api/VideoGames?cat_name=Maze&orderby=year dsc
+	- name
+	 https://localhost:44301/api/VideoGames?cat_name=Maze&orderby=name
+	- name dsc
+	https://localhost:44301/api/VideoGames?cat_name=Maze&orderby=name dsc
+	- year 
+	https://localhost:44301/api/VideoGames?cat_name=Maze&orderby=year
+	- year dsc
+	https://localhost:44301/api/VideoGames?cat_name=Maze&orderby=year dsc
 
 #Important Notes 
-Browser caches credentials. Sometimes clearing the cache doesn't help. The only reliable way how to fake it is use Chrome's incognito window (Ctrl+N). But one prompt per one incognito window. So, you need new incognito window when you want to enter them again. 
+	Browser caches credentials. Sometimes clearing the cache doesn't help. The only reliable way how to fake it is use Chrome's incognito window (Ctrl+N). But one prompt per one incognito window. So, you need new incognito window when you want to enter them again. 
 So, in order to test properly user postman. 
 
 #References: 
-https://codeburst.io/adding-basic-authentication-to-an-asp-net-core-web-api-project-5439c4cf78ee 
+	https://codeburst.io/adding-basic-authentication-to-an-asp-net-core-web-api-project-5439c4cf78ee 
