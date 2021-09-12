@@ -7,27 +7,38 @@ Using Microsoft's .NET framework and C#, build an API project that will host you
 Endpoints must start with "/api/".swagger 
 
 Your API must include endpoints to facilitate CRUD operations, including: 
-	1.  Get a collection of game metadata objects. 
+
+        1.  Get a collection of game metadata objects. 
+
 	2.  This endpoint should support an optional filter parameter to get all games for certain category. 
+
 	3.  This endpoint should support an optional order parameter to sort all games by name or release year. 
+
 	4.  Get a specific game metadata object. 
+
 	5.  Create a game metadata object. 
+
 	6.  Update a game metadata object. 
+
 	7.  Delete a game metadata object. 
+
 	8.  At the very least, protect your endpoints with basic authorization. 
+
 	9.  Be sure to program the appropriate response codes for unexpected conditions. 
+
 	10. Be sure to include proper testing for you code. 
+
 	11. Include a README.md file in the root of your project that explains how to run your code. 
 
 Guidelines 
 
-Feel free to load the data blob into memory and use in-memory storage for your operations. 
+        Feel free to load the data blob into memory and use in-memory storage for your operations. 
 It's good practice to validate your request input models. 
 Basic auth username can be "admin" and password can be hardcoded. 
 
 
 ## Implementation 
----------------- 
+
 
 The implementation is organized in the following projects: 
 
@@ -70,11 +81,12 @@ The implementation is organized in the following projects:
 Below are required tools to run this solution  
 
 	- Visual Studio 2019 
+
 	- Postman or alternatively use swagger in a browser. 
 
 Download the project and run in visual studio 2019. 
 
-I have included VideoGame API Test Cases excel file covering some scenarios.
+I have included VideoGame API Test Cases excel file covering some of the scenarios.
 
 Refer below demos on how to use Postman and Swagger to access endpoints 
 
@@ -94,19 +106,29 @@ Credential used for the basic authentication
 Below are list of REST Api endpoints used in demo. 
 
 	https://localhost:44301/api/VideoGames 
+
 	https://localhost:44301/api/VideoGames?cat_name=Maze&orderby=name dsc 
+
 	https://localhost:44301/api/VideoGames/DeleteGame?name=Pac-Man 
 
 Below are the paramter values are used while ordering the list
 
 	- name
+
 	 https://localhost:44301/api/VideoGames?cat_name=Maze&orderby=name
+
 	- name dsc
+
 	https://localhost:44301/api/VideoGames?cat_name=Maze&orderby=name dsc
+
 	- year 
+
 	https://localhost:44301/api/VideoGames?cat_name=Maze&orderby=year
+
 	- year dsc
+
 	https://localhost:44301/api/VideoGames?cat_name=Maze&orderby=year dsc
+
 
 ## Important Notes 
 
