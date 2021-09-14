@@ -8,7 +8,7 @@ namespace VideoGame.DAL.Repository
 {
     public class GamesRepository : IGamesRepository
     {
-        private string jsonFile = @"C:\Workspace\VideoGameRESTAPI\VideoGame.DAL\Data\data.json";
+        private string jsonFile = @"..\VideoGame.DAL\Data\data.json";
 
         GamesDto allGames = new GamesDto();
         string jsonGames = string.Empty;

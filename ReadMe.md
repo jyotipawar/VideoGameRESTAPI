@@ -8,7 +8,7 @@ Endpoints must start with "/api/".swagger
 
 Your API must include endpoints to facilitate CRUD operations, including: 
 
-        1.  Get a collection of game metadata objects. 
+    1.  Get a collection of game metadata objects. 
 
 	2.  This endpoint should support an optional filter parameter to get all games for certain category. 
 
